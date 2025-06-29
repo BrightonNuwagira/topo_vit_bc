@@ -8,7 +8,7 @@ Our approach extracts topological descriptors—**Betti curves** and **persisten
 
 ## Highlights
 - **Betti-CNN** and **PI-CNN**: CNN architectures augmented with Betti curves and persistence images.
-- **TopoSwin**: A novel architecture combining Swin Transformer features with Betti encodings via cross-attention.
+- **Topo-VT**: A novel architecture combining Swin Transformer features with Betti encodings via cross-attention.
 - **Transformer-based Betti Encoder** for end-to-end topological representation learning.
 - Benchmarked on real breast ultrasound datasets with superior performance over vanilla CNNs and standard transformers.
 
