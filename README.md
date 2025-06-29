@@ -21,7 +21,7 @@ Our approach extracts topological descriptors—**Betti curves** and **persisten
 | `Betti-CNN.py`         | CNN backbone model augmented with Betti curves                                       | **Betti-CNN**                      |
 | `PI-CNN.py`            | CNN backbone model augmented with persistence images                                 | **PI-CNN**                         |
 | `Vanilla-CNN.py`       | Standard CNN backbone (e.g., DenseNet121, ResNet18, VGG16)                  | **Baseline CNN**                   |
-| `toposwin.py`          | Swin Transformer with cross-attention fusion of image and Betti features    | **TopoSwin**                       |
+| `toposwin.py`          | Swin Transformer with cross-attention fusion of image and Betti features    | **Topo-VT**                       |
 | `swin.py`              | Standard Swin Transformer model without topological integration             | **Swin (Baseline Transformer)**    |
 | `betti_encoder.py`     | Transformer encoder for Betti curves, used within TopoSwin and ablation     | **Betti Encoder / Betti-Transformer** |
 | `Persistence_Image.py` | Script to compute persistence images from topological diagrams              |  |
