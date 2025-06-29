@@ -18,8 +18,8 @@ Our approach extracts topological descriptors—**Betti curves** and **persisten
 
 | File Name               | Description                                                                 | Model Name in Paper                |
 |------------------------|-----------------------------------------------------------------------------|------------------------------------|
-| `Betti-CNN.py`         | CNN model augmented with Betti curves                                       | **Betti-CNN**                      |
-| `PI-CNN.py`            | CNN model using persistence images as input                                | **PI-CNN**                         |
+| `Betti-CNN.py`         | CNN backbone model augmented with Betti curves                                       | **Betti-CNN**                      |
+| `PI-CNN.py`            | CNN backbone model augmented with persistence images                                 | **PI-CNN**                         |
 | `Vanilla-CNN.py`       | Standard CNN backbone (e.g., DenseNet121, ResNet18, VGG16)                  | **Baseline CNN**                   |
 | `toposwin.py`          | Swin Transformer with cross-attention fusion of image and Betti features    | **TopoSwin**                       |
 | `swin.py`              | Standard Swin Transformer model without topological integration             | **Swin (Baseline Transformer)**    |
